@@ -1,0 +1,14 @@
+doctype html
+html(lang='en')
+  head
+    title Image Magic
+    link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='/css/reset.css')
+    script(src='/js/vendor/jquery-1.10.2.js')
+    script(src='/js/source/main.js')
+  body
+    #controls
+      input#URL(type='text' placeholder='http://www.example.com/image.jpg')
+      input#add-img(type='button' value='Add image')
+    #images
+      .clear
